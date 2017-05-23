@@ -187,7 +187,7 @@ module.exports = function (context) {
       watchKitExtensionTargetName = watchKitExtensionTargetName.substr(1, watchKitExtensionTargetName.length - 2);
     } else if (theval.productType == "\"com.apple.product-type.application.watchapp2\"") {
       watchKitAppTargetName = theval.name;
-      // watchKitAppTargetName = watchKitAppTargetName.substr(1, watchKitAppTargetName.length - 2);
+      watchKitAppTargetName = watchKitAppTargetName.substr(1, watchKitAppTargetName.length - 2);
     }
   }
 
